@@ -34,6 +34,7 @@ redis is require
     * express 4.x
     * express-rate-limit ^2.6.0 (for local stand-alone)
 #### run 
+- npm install 
 - setting index.js -> limitoptions
 - npm test (unit testing)
 - npm start 
