@@ -1,0 +1,38 @@
+{
+  "name": "ratelimiting",
+  "version": "1.0.0",
+  "description": "v6.4.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "istanbul cover _mocha --recursive \"test/**/*.js\"  ",
+    "nperf":"nperf --conf nperfcfg.js -t local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSMeteor/RateLimiting.git"
+  },
+  "keywords": [
+    "ReateLimiting"
+  ],
+  "author": "osmeteor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSMeteor/RateLimiting/issues"
+  },
+  "homepage": "https://github.com/OSMeteor/RateLimiting",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-rate-limit": "^2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "http-perf": "0.0.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}
