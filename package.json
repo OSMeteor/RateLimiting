@@ -1,6 +1,6 @@
 {
   "name": "ratelimiting",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "v6.4.0",
   "main": "index.js",
   "directories": {
